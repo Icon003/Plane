@@ -1,0 +1,183 @@
+
+.ModalUpdateTitleNote {
+    display: none;
+    background-color: #ffffff;
+    position: fixed;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    top: 50%;
+	left: 50%;
+    margin-top: -155px;
+	margin-left: -250px;
+    z-index: 5;
+    height: 310px;
+    width: 500px;
+}
+
+.TitleModalUpdateTitleNote {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    background-color: #3498db;
+    color: #fff;
+    font-size: 20px;
+}
+
+.ContainerTitleUpdateTitleNote {
+    /*    font-family: 'Marmelad', sans-serif;*/
+    font-family: 'Roboto', sans-serif;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.TitleInputUpdateNote {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    height: 40px;
+    font-size: 18px;
+}
+
+.ContainerStatusUpdateTitleNote {
+    /*    font-family: 'Marmelad', sans-serif;*/
+    font-family: 'Roboto', sans-serif;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.ContainerTypeUpdateTitleNote {
+    /*    font-family: 'Marmelad', sans-serif;*/
+    font-family: 'Roboto', sans-serif;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.ButtonUpdateTitleNote {
+    width: 100px;
+    height: 40px;
+    margin: 5px;
+    padding: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+    font-size: 16px;
+}
+.ButtonUpdateTitleNote:hover {
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+}
+.ButtonUpdateTitleNote>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 40px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #3498db;
+}
+
+.ButtonCloseTitleNote {
+    width: 100px;
+    height: 40px;
+    margin: 5px;
+    padding: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+    font-size: 16px;
+}
+.ButtonCloseTitleNote:hover {
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+}
+.ButtonCloseTitleNote>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 40px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #3498db;
+}
+
+.ButtonCompletedNote {
+    width: 70px;
+    height: 30px;
+    margin: 5px;
+    padding: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+    font-size: 16px;
+}
+.ButtonCompletedNote:hover {
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+}
+.ButtonCompletedNote>div {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 30px;
+    font-size: 12px;
+    color: #fff;
+    background-color: #3498db;
+}
+
+.ContainerButtonUpdateTitleNote {
+    /*font-family: 'Marmelad', sans-serif;*/
+    font-family: 'Roboto', sans-serif;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.ErrorContainerUpdateTitle{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    color: #f3ca29;
+}
+
+
+
+.UpdatePlacebe {
+    width: 70px;
+    height: 30px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.ContainerDateUpdateTitleNote {
+        /*    font-family: 'Marmelad', sans-serif;*/
+    font-family: 'Roboto', sans-serif;
+    height: 50px;
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+

@@ -1,0 +1,118 @@
+.TopDiv {
+    background-color: #2ecc71;
+}
+
+
+.ButtonClose {
+    background-color: #2ecc71;
+}
+
+
+.TitleSeting{
+    background-color: #2ecc71;
+}
+
+
+.activesDivNote{
+    border-left: 5px solid;
+    border-left-color: #2ecc71;
+}
+
+
+.AddNoteDiv {
+    background-color: #2ecc71;
+}
+
+
+.TitleDiv{
+    background-color: #2ecc71;
+}
+
+
+.TabDiv:hover{
+    border-color: #91e6b5;
+}
+
+.tabs_menu>.actives>div{
+    border-color: #2ecc71;
+}
+
+.ButtonNewPass{
+    background-color: #2ecc71; 
+}
+
+.TabUser>div>a{
+    color: #2ecc71;
+}
+.TabUser>div>a:hover{
+    color: #249052;
+}
+
+
+.ButtonCheked {
+    background-color: #2ecc71;
+}
+
+#2ecc71
+
+
+.TitleModalSettindAddNote {
+    background-color: #2ecc71;
+}
+
+.ButtonCloseAddNote>div{
+    background-color: #2ecc71;
+}
+
+.ButtonAddNote>div{
+    background-color: #2ecc71;
+}
+
+
+
+.TitleModalUpdateTitleNote {
+    background-color: #2ecc71;
+}
+
+.ButtonUpdateTitleNote>div {
+    background-color: #2ecc71;
+}
+
+.ButtonCloseTitleNote>div {
+    background-color: #2ecc71;
+}
+
+.ButtonCompletedNote>div {
+    background-color: #2ecc71;
+}
+
+
+
+
+.bar:before, .bar:after {
+    background:#2ecc71;
+}
+@-webkit-keyframes inputHighlighter {
+	from { background:#2ecc71; }
+  to 	{ width:0; background:transparent; }
+}
+@-moz-keyframes inputHighlighter {
+	from { background:#2ecc71; }
+  to 	{ width:0; background:transparent; }
+}
+@keyframes inputHighlighter {
+	from { background:#2ecc71; }
+  to 	{ width:0; background:transparent; }
+}
+
+
+
+.TitleModalRestore {
+    background-color: #2ecc71;
+}
+.ButtonRestoreNote>div {
+    background-color: #2ecc71;
+}
+.ButtonCloseRestoreNote>div {
+    background-color: #2ecc71;
+}

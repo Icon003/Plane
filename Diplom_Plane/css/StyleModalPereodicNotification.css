@@ -1,0 +1,321 @@
+
+.ModalPereodicNotification {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 600px;
+    height: 500px;
+	position: fixed;
+    top: 50%; /* oтступaем сверху 45%, oстaльные 5% пoдвинет скрипт */
+	left: 50%; /* пoлoвинa экрaнa слевa */
+    margin-top: -250px;
+	margin-left: -300px; /* тут вся мaгия центрoвки css, oтступaем влевo и вверх минус пoлoвину ширины и высoты сooтветственнo =) */
+	border-radius: 0px;
+/*	background: #000000;*/
+	background: #ffffff;
+    padding: 0;
+    z-index: 5;
+}
+
+.ContainerAddPereodicNotification {
+/*    visibility: hidden;*/
+    display: none;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: #ffffff;
+/*    transition-property: width;*/
+/*    transition-duration: 0.5s;*/
+    
+}
+
+.MainContainerPereodicNotification {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+/*    transition-property: width;*/
+/*    transition-duration: 0.5ms;*/
+    
+}
+.ContainerPereodicNotification {
+    overflow-y: auto;
+    overflow-x: hidden;
+/*    display: flex;*/
+    flex-direction: column;
+    height: 85%;
+    outline: none;
+    padding: 0;   
+}
+
+.TitleContainerAddPereodicNotification {
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: #ffffff;
+    text-align: center;
+    background-color: #9b59b6;
+}
+
+.NamePereodicNotification {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.TypePereodicNotification {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.DatePereodicNotification {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.TitleTypePereodicNotificationInput {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    font-size: 18px;
+/*    color: #bebebe;*/
+}
+
+.TitleDatePereodicNotificationInput {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    font-size: 18px;
+/*    color: #bebebe;*/
+}
+
+.TitleNamePereodicNotificationInput {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    font-size: 18px;
+/*    color: #bebebe;*/
+}
+
+.ContainerRadioTypePereodicNotificationInput {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+}
+
+.ButtonAddPereodicNotification {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    font-size: 20px;
+    width: 200px;
+    height: 45px;
+    background-color: #9b59b6;
+    margin: 10px;
+    color: #ffffff;
+}
+.ButtonAddPereodicNotification:hover {
+    text-decoration: none;
+    outline: none;
+/*    background-color: #bebebe;*/
+    cursor: pointer;
+}
+
+.ButtonShowClosePereodicNotification {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    font-size: 20px;
+    width: 200px;
+    height: 45px;
+    background-color: #9b59b6;
+    margin: 10px;
+    color: #ffffff;
+}
+
+.ButtonShowAddPereodicNotification {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    font-size: 20px;
+    width: 200px;
+    height: 45px;
+    background-color: #9b59b6;
+    margin: 10px;
+    color: #ffffff;
+}
+
+.ButtonShowAddPereodicNotification:hover {
+    text-decoration: none;
+    outline: none;
+/*    background-color: #bebebe;*/
+    cursor: pointer;
+}
+.ButtonShowClosePereodicNotification:hover {
+    text-decoration: none;
+    outline: none;
+/*    background-color: #bebebe;*/
+    cursor: pointer;
+}
+
+.ContainerButtonPeriodicNotification {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.BlockNotePeriodic {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100px;
+    border-bottom: 1px solid;
+    border-color: #bebebe;
+}
+
+.ButtonAddShowContainerPereodicNotification {
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.TitleBlockNotePereodic {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: #848484;
+    height: 35%;
+    padding: 0px;
+}
+
+.DateBlockNotePereodic {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 14px;
+    color: #848484;
+    height: 100%;
+}
+
+.ContainerDateAndPereodicNotePereodic {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: #848484;
+    height: 45%;
+    padding: 0px;
+}
+
+.PereodiclockNotePereodic {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    font-size: 14px;
+    color: #848484;
+    height: 100%;
+}
+
+.ButtonDeleteNotePereodic {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 20%;
+}
+.ButtonDeleteNotePereodic>img {
+    height: 18px;
+    width: 18px;
+    cursor: pointer;
+}
+
+.ButtonClosePereodicNotification {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    font-size: 20px;
+    width: 200px;
+    height: 45px;
+    background-color: #9b59b6;
+    margin: 10px;
+    color: #ffffff;
+}
+.ButtonClosePereodicNotification:hover {
+    text-decoration: none;
+    outline: none;
+/*    background-color: #bebebe;*/
+    cursor: pointer;
+}
+
+.TitleTimePereodicNotificationInput {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    font-size: 18px;
+/*    color: #bebebe;*/
+}
+
+.TimePereodicNotification {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.DivErrorAddPeriodicNotification {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    color: #f3ca29;
+}

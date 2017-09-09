@@ -1,0 +1,422 @@
+/* Базовый контейнер табов */
+.MainTabsContainer {
+	height: 100%;
+	padding: 0px;
+	margin: 0 auto;
+}
+
+.TabsContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    border-right: 1px solid;
+    border-color: #bebebe;
+    height: 100%;
+}
+
+
+.TitleDiv{
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+    font-size: 20px;
+    color: #ffffff;
+/*    background-color: #3498db;*/
+    align-items: center;
+    justify-content: center;
+}
+.TabDiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+/*    margin: 5px;*/
+    height: 50px;
+    padding: 10px;
+    border-left: 5px solid;
+    border-color: #ffffff;
+
+}
+.TabDiv:hover{
+    border-left: 5px solid;
+/*    border-color: #96c2e0;*/
+}
+.tabs_menu{
+    padding: 0;
+    font-size: 16px;
+}
+.ContentTabDivStart{
+    height: 100%;
+    display: block;
+    padding: 0;
+}
+/*
+.ContentTabDivStart>div{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+*/
+.ContentTabDivStart>div>img{
+    width: 128px;
+    height: 128px;
+}
+.ContentTabDiv>div>img{
+    width: 128px;
+    height: 128px;
+}
+
+
+.ContentTabDiv>div{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.ContentTabDiv{
+    display: none;
+    height: 100%;
+    padding: 0;
+}
+
+.tabs_menu>a{
+    text-decoration: none;
+    color: #333333;
+}
+
+.tabs_menu>.actives>div{
+    border-left: 5px solid;
+/*    border-color: #3498db;*/
+}
+
+.TabLang {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ContainerContentTabDiv {
+    height: 90%;
+}
+
+.HelloUser{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.TitleInput {
+    padding-top: 5px;
+    color: #848484;
+}
+
+.ButtonNewPass{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    margin: 10px;
+    font-size: 18px;
+    color: #ffffff;
+/*    background-color:#3498db; */
+}
+.TabUser>a{
+    height: 40px;
+    text-decoration: none;
+    outline: none;
+    cursor: pointer;
+
+}
+.TabUser>div>a{
+    text-decoration: none;
+    outline: none;
+    cursor: pointer;
+/*    color: #3498db;*/
+}
+.TabUser>div>a:hover{
+/*    color: #276e9f;*/
+}
+
+.HidenInput{
+    display: none;
+}
+.DivMessage {
+    color: #2ECC71;
+    font-size: 20px;
+    text-align: center;
+}
+.DivMessage>img {
+    margin-right: 5px;
+    height: 20px;
+    width: 20px;
+}
+
+.DivError {
+    color: #f1c40f;
+    font-size: 20px;
+    text-align: center;
+}
+.DivError>img {
+    margin-right: 5px;
+    height: 20px;
+    width: 20px;
+}
+
+.MainColorContainer {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.TitleColorSeting {
+    padding-top: 5px;
+    color: #848484;
+}
+
+.DivColor1 {
+    margin: 5px;
+    height: 42px;
+    width: 42px;
+    background-color: #3498db;
+}
+.DivColor2 {
+    margin: 5px;
+    height: 42px;
+    width: 42px;
+    background-color: #9b59b6;
+}
+.DivColor3 {
+    margin: 5px;
+    height: 42px;
+    width: 42px;
+    background-color: #e74c3c;
+}
+.DivColor4 {
+    margin: 5px;
+    height: 42px;
+    width: 42px;
+    background-color: #2ecc71;
+}
+
+.HoverDivColor{
+/*    margin: 5px;*/
+    height: 42px;
+    width: 42px;
+/*    position: ;*/
+/*    z-index: 10;*/
+    background-color: rgba(255, 254, 254, 0);
+/*    background-color: rgba(0, 0, 0, 0.54);*/
+}
+.ActiveDivColor{
+    border-bottom: 5px solid;
+    border-color: #525252;
+}
+
+
+
+.ColorContiner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+/*
+    border: 1px solid;
+    border-color: #848484;;
+*/
+}
+
+.ButtonCheked {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    font-size: 20px;
+    width: 100px;
+    height: 40px;
+/*    background-color: #3498db;*/
+    color: #fff;
+    font-size: 18px;
+}
+.ButtonCheked:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.ContainerButtonVisualSetting {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    height: 10%;
+    padding: 0;
+}
+
+.MainSoundContainer {
+    padding-right: 15px;
+    padding-left: 15px;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.TitleSoundSeting {
+    padding-top: 5px;
+    color: #848484;
+}
+
+.Sound {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    color: #9b9b9b;
+    padding: 5px;
+    height: 52px;
+    width: 52px;
+    cursor: pointer;
+}
+.HoverDivSound{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 52px;
+    width: 52px;
+    padding: 0px;
+}
+.HoverDivSound:hover {
+    background-color: rgba(0, 0, 0, 0.35);
+}
+.ActiveSound {
+    border-bottom: 5px solid;
+    border-color: #525252;
+}
+.Sound>img {
+    height: 32px;
+    width: 32px;
+}
+
+.SoundContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.ContainerStatisticsUser {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 20px;
+    
+    
+}
+
+.ContainerColEntry {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
+.ContainerColEntry>img {
+    width: 32px;
+    height: 32px;
+}
+
+.ContainerColNotification {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
+.ContainerColNotification>img {
+    width: 32px;
+    height: 32px;
+}
+
+.ContainerColNote {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
+.ContainerColNote>img {
+    width: 32px;
+    height: 32px;
+}
+
+.ContainerCoins {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
+.ContainerCoins>img {
+    width: 32px;
+    height: 32px;
+}
+
+.TitleColEntry {
+    font-size: 24px;
+    color: #848484;
+    padding-right: 5px;
+}
+
+.TitleColNotification {
+    font-size: 24px;
+    color: #848484;
+    padding-right: 5px;
+}
+
+.TitleColNote {
+    font-size: 24px;
+    color: #848484;
+    padding-right: 5px;
+}
+
+.TitleCoins {
+    font-size: 24px;
+    color: #848484;
+    padding-right: 5px;
+}
+
+.ColEntry {
+    font-size: 24px;
+    color: #848484;
+    padding-left: 5px;
+}
+
+.ColNotification {
+    font-size: 24px;
+    color: #848484;
+    padding-left: 5px;
+}
+
+.ColNote {
+    font-size: 24px;
+    color: #848484;
+    padding-left: 5px;
+}
+
+.Coins {
+    font-size: 24px;
+    color: #848484;
+    padding-left: 5px;
+}

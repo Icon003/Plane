@@ -1,0 +1,37 @@
+@media print {
+
+    .ContainerButtonPrint{
+        display: none;
+    }
+    .TopDiv{
+        display: none;
+    }
+    .Toolbar{
+        display: none;
+    }
+    .MainContainerNote{
+        display: none;
+    }
+    .MainContainerText{
+        display: none;
+    }
+    ModalPrintContainer{
+        display: none;
+        width: 50vh;
+    }
+    .DivPrintContainer{
+        display: flex;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    .TextNotePrint{
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    .TypePrintNote {
+        padding-right: 450px;
+    }
+    .DatePrintNote {
+
+    }
+}

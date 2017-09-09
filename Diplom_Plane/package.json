@@ -1,0 +1,15 @@
+{
+    "name": "Plane",
+    "version": "0.0.1",
+    "main": "/html/login.html",
+    "author": "Developer",
+    "window": {
+        "toolbar": false,
+        "frame": false,
+        "icon": "paper-plane_WH.png",
+        "width": 1280,
+        "height": 720,
+        "min_width": 1280,
+        "min_height": 720
+    }
+}
