@@ -1,3 +1,0 @@
-function PrintNote(){
-    window.print();
-}

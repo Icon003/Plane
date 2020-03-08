@@ -1,0 +1,578 @@
+body,html {
+	overflow-x: hidden;
+}
+
+.MainContainer {
+	display: flex;
+
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+
+	height: 100%;
+}
+
+.LeftBottomClass::after {
+	width: 100%;
+	height: 100%;
+
+	position: absolute;
+	bottom: 0;
+
+	content: "";
+	transform: skewY(2deg);
+	transform-origin: left bottom;
+}
+
+.RightTopClass::after {
+	width: 100%;
+	height: 100%;
+
+	position: absolute;
+	bottom: 0;
+
+	background: inherit;
+
+	content: "";
+	transform: skewY(2deg);
+	transform-origin: right top;
+}
+.RightTopClass::before {
+	width: 100%;
+	height: 100%;
+
+	position: absolute;
+	bottom: 0;
+
+	background: inherit;
+
+	content: "";
+	transform: skewY(-2deg);
+	transform-origin: right bottom;
+}
+
+
+.LeftTopClass::after {
+	width: 100%;
+	height: 100%;
+
+	position: absolute;
+
+	background: inherit;
+
+	content: "";
+	transform: skewY(-2deg);
+	transform-origin: left top;
+}
+
+
+.LeftTopClass::before {
+	width: 100%;
+	height: 100%;
+
+	position: absolute;
+
+	background: inherit;
+
+	content: "";
+	transform: skewY(2deg);
+	transform-origin: left top;
+}
+
+.PreFoter::after {
+	width: 100%;
+	height: 100%;
+
+	position: absolute;
+
+	background: inherit;
+
+	content: "";
+	transform: skewY(5deg);
+	transform-origin: right top;
+}
+.PreFoter::before {
+	width: 100%;
+	height: 100%;
+
+	position: absolute;
+
+	background: inherit;
+
+	content: "";
+	transform: skewY(-5deg);
+	transform-origin: left bottom;
+}
+
+.Header {
+	display: flex;
+
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	height: 400px;
+
+	background-color: #3498db;
+}
+
+.DivTwo {
+	display: flex;
+
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	padding: 0px;
+
+	background-color: #ffffff;
+}
+.DivThree {
+	display: flex;
+
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	background-color: #3498db;
+}
+
+.Footer {
+	display: flex;
+
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	height: 200px;
+
+	position: relative;
+
+	background-color: #3498db;
+}
+
+.Logo {
+	display: flex;
+
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+
+	padding-top: 10px;
+}
+.Logo > img {
+	width: 200px;
+	height: 130px;
+}
+
+
+.TitleLogo {
+	display: flex;
+
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+
+	font-family: "Pattaya", sans-serif;
+	font-size: 64px;
+}
+
+.InfoLogo {
+	display: flex;
+
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+
+	font-family: "Marmelad", sans-serif;
+	font-size: 24px;
+}
+
+.TitleDivTwo {
+	display: flex;
+
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+
+	z-index: 1;
+
+	font-size: 48px;
+}
+
+.ContainerBlockPlus {
+	padding-top: 40px;
+	padding-bottom: 150px;
+
+	z-index: 1;
+}
+
+.Card {
+	display: flex;
+
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	padding-top: 20px;
+	padding-right: 70px;
+	padding-left: 70px;
+
+	font-size: 24px;
+}
+
+.ContainerImgCard {
+	display: flex;
+
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+
+	width: 160px;
+	height: 160px;
+	margin: 20px;
+
+	border-radius: 100%;
+	background-color: #3498db;
+}
+.ContainerImgCard > img {
+	width: 100px;
+	height: 100px;
+}
+
+.TitleCard {
+	display: flex;
+
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+
+	color: #3498db;
+
+	text-align: center!important;
+}
+
+.TextCard {
+	display: flex;
+
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+
+	padding-top: 10px;
+
+	font-size: 20px;
+
+	text-align: center!important;
+}
+
+
+
+.TextDivTwo {
+	display: flex;
+
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+
+	z-index: 1;
+
+	font-size: 24px;
+
+	text-align: center!important;
+}
+.TextDivTwo::after {
+	width: 140px;
+	height: 2px;
+	margin-left: -70px;
+
+	position: absolute;
+	bottom: -24px;
+	left: 50%;
+
+	background-color: #3498db;
+
+	content: "";
+}
+
+.TitleDivThree {
+	display: flex;
+
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+
+	z-index: 1;
+
+	font-size: 48px;
+
+	color: #ffffff;
+
+	text-align: center!important;
+}
+
+.TitleDivThree::after {
+	width: 140px;
+	height: 2px;
+	margin-left: -70px;
+
+	position: absolute;
+	bottom: -10px;
+	left: 50%;
+
+	background-color: #ffffff;
+
+	content: "";
+}
+
+.TitleDivFour {
+	display: flex;
+
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+
+	z-index: 1;
+
+	font-size: 48px;
+}
+
+.TitleDivFour::after {
+	width: 140px;
+	height: 2px;
+	margin-left: -70px;
+
+	position: absolute;
+	bottom: -10px;
+	left: 50%;
+
+	background-color: #3498db;
+
+	content: "";
+}
+
+.CardFotoProger {
+	display: flex;
+
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+
+	width: 230px;
+	height: 230px;
+	margin: 20px;
+
+	z-index: 1;
+
+	border-radius: 100%;
+	background-color: #3498db;
+}
+.CardFotoProger > img {
+	width: 160px;
+	height: 160px;
+}
+
+.NameProger {
+	display: flex;
+
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+
+	z-index: 1;
+
+	font-size: 18px;
+}
+
+.CardProger {
+	display: flex;
+
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	padding-top: 20px;
+	padding-bottom: 80px;
+
+	font-size: 24px;
+}
+
+.ImgVk {
+	display: flex;
+
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+
+	width: 40px;
+	height: 40px;
+	padding: 20px;
+
+	z-index: 1;
+
+	border: 1px solid;
+	border-color: #ffffff;
+	border-radius: 100%;
+}
+.ImgVk:hover {
+	padding: 20px;
+
+	border: 1px solid;
+	border-color: #3498db;
+}
+.ImgVk > img {
+	width: 32px;
+	height: 32px;
+}
+
+.DivFour {
+	display: flex;
+
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	height: 600px;
+
+	background-color: #ffffff;
+}
+
+.ContainerButtonDowload {
+	padding: 0px;
+	padding-bottom: 50px;
+}
+
+.Button {
+	display: flex;
+
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+
+	width: 200px;
+	height: 50px;
+	margin: 10px;
+	margin-bottom: 1px;
+
+	z-index: 1;
+
+	border: 1px solid;
+	border-color: #ffffff;
+	border-radius: 5px;
+	outline: none;
+
+	cursor: pointer;
+	text-decoration: none;
+}
+.Button > div {
+	outline: none;
+
+	text-decoration: none;
+}
+
+.Button:hover {
+	outline: none;
+
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.Button > div {
+	z-index: 1;
+
+	font-size: 24px;
+
+	color: #ffffff;
+
+	cursor: pointer;
+}
+.ContainerButton {
+	display: flex;
+
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.DopNadp {
+	display: flex;
+
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+
+	width: 200px;
+	height: 10px;
+	padding-top: 5px;
+
+	color: #ffffff;
+}
+
+.ContainerBlockDowload {
+	padding-top: 40px;
+	padding-bottom: 150px;
+
+	z-index: 1;
+}
+
+.TitleCardDowload {
+	display: flex;
+
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+
+	color: #ffffff;
+
+	text-align: center!important;
+}
+
+.TitleDivFooter {
+	display: flex;
+
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+
+	z-index: 1;
+
+	font-size: 18px;
+
+	color: #ffffff;
+
+	text-align: center!important;
+}
+
+.ImgFooter {
+	display: flex;
+
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+
+	padding: 20px;
+
+	z-index: 1;
+}
+.ImgFooter > img {
+	width: 48px;
+	height: 28px;
+}
+
+.ContainerImgCardOS {
+	display: flex;
+
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+
+	width: 160px;
+	height: 160px;
+	margin: 20px;
+
+	border-radius: 100%;
+}
+.ContainerImgCardOS > img {
+	width: 100px;
+	height: 100px;
+}
